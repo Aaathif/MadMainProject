@@ -12,16 +12,20 @@
         android:theme="@style/Theme.FinanceManagementClient"
         tools:targetApi="31">
         <activity
+            android:name=".ViewIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertIncomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".IncomeActivity"
             android:exported="false" />
-
         <activity
             android:name=".DeleteIncomeActivity"
             android:exported="false" />
-
         <activity
             android:name=".UpdateIncomeActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".UpdateExpenseActivity"
             android:exported="false" />
@@ -33,7 +37,7 @@
             android:exported="false" />
         <activity
             android:name=".InsertExpenseActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".expenseActivity"
             android:exported="false" />
@@ -63,7 +67,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

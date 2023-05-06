@@ -5,4 +5,11 @@ data class UserData(val name: String? = null, val operator: String? = null,
 
 }
 data class ExpenseData(val id: String? = null, val type: String? = null,
-                        val amount: String? = null, val date: String? = null)
+                        val amount: String? = null, val date: String? = null){
+
+}
+
+data class IncomeData(val id: String? = null, val type: String? = null,
+                       val amount: String? = null, val date: String? = null){
+
+}
