@@ -26,9 +26,9 @@ class DeleteExpenseActivity : AppCompatActivity() {
         }
     }
 
-    private fun deleteData(phone: String){
-        databaseReference = FirebaseDatabase.getInstance().getReference("Phone Directory")
-        databaseReference.child(phone).removeValue().addOnSuccessListener {
+    private fun deleteData(id: String){
+        databaseReference = FirebaseDatabase.getInstance().getReference("Expense Directory")
+        databaseReference.child(id).removeValue().addOnSuccessListener {
             binding.deleteExpense.text.clear()
             Toast.makeText(this, "Deleted", Toast.LENGTH_SHORT).show()
         }.addOnFailureListener {

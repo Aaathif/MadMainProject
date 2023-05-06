@@ -22,12 +22,12 @@ class ViewExpenseActivity : AppCompatActivity() {
             if  (searchID.isNotEmpty()){
                 readData(searchID)
             }else{
-                Toast.makeText(this,"PLease enter the phone number",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"PLease enter Expense ID",Toast.LENGTH_SHORT).show()
             }
         }
     }
     private fun readData(id: String){
-        databaseReference = FirebaseDatabase.getInstance().getReference("Phone Directory")
+        databaseReference = FirebaseDatabase.getInstance().getReference("Expense Directory")
         databaseReference.child(id).get().addOnSuccessListener {
             if (it.exists()){
                 val type = it.child("type").value

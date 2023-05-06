@@ -25,7 +25,7 @@ class InsertExpenseActivity : AppCompatActivity() {
             val date = binding.insertDate.text.toString()
 
             databaseReference = FirebaseDatabase.getInstance().getReference("Expense Directory") //tableName
-            val users = UserData(id,type,amount,date)
+            val users = ExpenseData(id,type,amount,date)
             databaseReference.child(id).setValue(users).addOnSuccessListener {
                 binding.insertID.text.clear()
                 binding.insertType.text.clear()

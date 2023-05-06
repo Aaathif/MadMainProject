@@ -19,5 +19,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 //            finish()
         }
+
+        binding.expenseLayout.setOnClickListener{
+            val intent = Intent(this@MainActivity, expenseActivity::class.java)
+            startActivity(intent)
+//            finish()
+        }
+
+        binding.incomeLayout.setOnClickListener{
+            val intent = Intent(this@MainActivity, IncomeActivity::class.java)
+            startActivity(intent)
+//            finish()
+        }
+
+
+
     }
 }

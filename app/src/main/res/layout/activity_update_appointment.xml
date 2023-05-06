@@ -46,12 +46,12 @@
             android:layout_height="60dp"
             android:id="@+id/referencePhone"
             android:drawableBottom="@color/themeGreen"
-
+            android:inputType="numberDecimal"
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter phone number"
+            android:hint="Enter phone number - Ex. 0771281286"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
@@ -64,7 +64,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter name"
+            android:hint="Enter name - Ex.De Silva"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
@@ -78,7 +78,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter position"
+            android:hint="Enter position - Ex. Accountant"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
@@ -92,7 +92,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter location"
+            android:hint="Enter location - Ex. Colombo"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
