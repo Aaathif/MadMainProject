@@ -28,7 +28,7 @@
             android:layout_height="69dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="180dp"
-            android:text="View Appointment"
+            android:text="View Expenses"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -37,13 +37,13 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/searchPhone"
+        android:id="@+id/searchID"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:padding="12dp"
         android:drawableBottom="@drawable/lavender_border"
-        android:hint="Enter phone number"
+        android:hint="Enter Expense ID"
         android:textSize="20sp"
         android:textColor="@color/themeGreen"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,9 +96,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/name"
+                    android:id="@+id/type"
                     android:layout_weight="1"
-                    android:text="Name"
+                    android:text="Expense Type"
                     android:textStyle="bold"
                     android:textColor="@color/themeGreen"
                     android:textSize="18sp"/>
@@ -106,7 +106,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/readName"
+                    android:id="@+id/readType"
                     android:text=""
                     android:layout_weight="1"
                     android:textAlignment="viewEnd"
@@ -132,9 +132,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/operator"
+                    android:id="@+id/amount"
                     android:layout_weight="1"
-                    android:text="Position"
+                    android:text="Amount"
                     android:textStyle="bold"
                     android:textColor="@color/themeGreen"
                     android:textSize="18sp"/>
@@ -142,7 +142,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/readOperator"
+                    android:id="@+id/readAmount"
                     android:text=""
                     android:layout_weight="1"
                     android:textAlignment="viewEnd"
@@ -168,9 +168,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/location"
+                    android:id="@+id/date"
                     android:layout_weight="1"
-                    android:text="Location"
+                    android:text="Date"
                     android:textStyle="bold"
                     android:textColor="@color/themeGreen"
                     android:textSize="18sp"/>
@@ -178,7 +178,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/readLocation"
+                    android:id="@+id/readDate"
                     android:text=""
                     android:layout_weight="1"
                     android:textAlignment="viewEnd"

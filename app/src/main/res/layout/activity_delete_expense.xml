@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -27,7 +30,7 @@
             android:layout_height="69dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="180dp"
-            android:text="Update Appointment"
+            android:text="Delete Expense"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -37,77 +40,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center_horizontal"
         android:padding="20dp">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/referencePhone"
-            android:drawableBottom="@color/themeGreen"
-
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:padding="16dp"
-            android:hint="Enter phone number"
-            android:gravity="start|center_vertical"
-            android:textColor="@color/themeGreen"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/updateName"
+            android:id="@+id/deleteExpense"
             android:drawableBottom="@color/themeGreen"
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter name"
+            android:hint="Enter Expense ID"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/updateOperator"
-            android:drawableBottom="@color/themeGreen"
-
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:padding="16dp"
-            android:hint="Enter position"
-            android:gravity="start|center_vertical"
-            android:textColor="@color/themeGreen"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/updateLocation"
-            android:drawableBottom="@color/themeGreen"
-
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:padding="16dp"
-            android:hint="Enter location"
-            android:gravity="start|center_vertical"
-            android:textColor="@color/themeGreen"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="Update"
-            android:id="@+id/updateButton"
+            android:layout_height="70dp"
+            android:text="Delete"
+            android:id="@+id/deleteButton"
             android:textSize="18sp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:backgroundTint="@color/themeGreen"
             app:cornerRadius = "20dp"/>
-
     </LinearLayout>
 
 

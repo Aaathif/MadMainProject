@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -27,24 +25,58 @@
             android:layout_width="169dp"
             android:layout_height="69dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="250dp"
-            android:text="Set Income"
+            android:layout_marginTop="180dp"
+            android:text="Manage Incomes"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="25sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp">
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="View Incomes"
+            android:id="@+id/incomeView"
+            android:textSize="18sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/themeGreen"
+            app:cornerRadius = "20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Add Income"
+            android:id="@+id/incomeInsert"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/themeGreen"
+            app:cornerRadius = "20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:text="Update"
-            android:id="@+id/updateIncome"
+            android:id="@+id/incomeUpdate"
             android:textSize="18sp"
             android:padding="16dp"
             app:strokeColor="@color/themeGreen"
@@ -61,7 +93,7 @@
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:text="Delete"
-            android:id="@+id/deleteIncome"
+            android:id="@+id/incomeDelete"
             android:textSize="18sp"
             android:padding="16dp"
             android:layout_weight="1"
@@ -75,43 +107,6 @@
             app:cornerRadius = "20dp"/>
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="View Income"
-            android:id="@+id/viewIncome"
-            android:textSize="18sp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/themeGreen"
-            app:cornerRadius = "20dp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="Insert Income"
-            android:id="@+id/uploadIncome"
-            android:textSize="18sp"
-            android:textColor="@color/white"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:backgroundTint="@color/themeGreen"
-            app:cornerRadius = "20dp"/>
-    </LinearLayout>
-
 
 
 

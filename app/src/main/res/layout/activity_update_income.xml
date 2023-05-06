@@ -27,7 +27,7 @@
             android:layout_height="69dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="180dp"
-            android:text="Update Appointment"
+            android:text="Update Income"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -44,55 +44,53 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/referencePhone"
+            android:id="@+id/referenceIncomeID"
             android:drawableBottom="@color/themeGreen"
-
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter phone number"
+            android:hint="Enter Income ID"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/updateName"
+            android:id="@+id/updateIncomeType"
             android:drawableBottom="@color/themeGreen"
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter name"
+            android:hint="Enter Income Type"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/updateOperator"
+            android:id="@+id/updateIncomeAmount"
             android:drawableBottom="@color/themeGreen"
-
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter position"
+            android:hint="Enter Income Amount"
+            android:inputType="numberDecimal"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/updateLocation"
+            android:id="@+id/updateIncomeDate"
             android:drawableBottom="@color/themeGreen"
-
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter location"
+            android:hint="Enter Date"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
@@ -100,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Update"
-            android:id="@+id/updateButton"
+            android:id="@+id/updateIncomeButton"
             android:textSize="18sp"
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
@@ -109,8 +107,4 @@
             app:cornerRadius = "20dp"/>
 
     </LinearLayout>
-
-
-
-
 </LinearLayout>

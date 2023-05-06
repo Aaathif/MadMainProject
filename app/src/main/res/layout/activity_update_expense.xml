@@ -27,7 +27,7 @@
             android:layout_height="69dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="180dp"
-            android:text="Update Appointment"
+            android:text="Update Expense"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -44,55 +44,53 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/referencePhone"
+            android:id="@+id/referenceID"
             android:drawableBottom="@color/themeGreen"
-
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter phone number"
+            android:hint="Enter Expense ID"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/updateName"
+            android:id="@+id/updateType"
             android:drawableBottom="@color/themeGreen"
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter name"
+            android:hint="Enter Expense Type"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/updateOperator"
+            android:id="@+id/updateAmount"
             android:drawableBottom="@color/themeGreen"
-
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter position"
+            android:hint="Enter Amount"
+            android:inputType="numberDecimal"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/updateLocation"
+            android:id="@+id/updateDate"
             android:drawableBottom="@color/themeGreen"
-
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter location"
+            android:hint="Enter Date"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 
@@ -109,8 +107,4 @@
             app:cornerRadius = "20dp"/>
 
     </LinearLayout>
-
-
-
-
 </LinearLayout>
