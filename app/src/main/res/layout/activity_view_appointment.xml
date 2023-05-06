@@ -136,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/operator"
                     android:layout_weight="1"
-                    android:text="Operator"
+                    android:text="Position"
                     android:textStyle="bold"
                     android:textColor="@color/themeGreen"
                     android:textSize="18sp"/>
