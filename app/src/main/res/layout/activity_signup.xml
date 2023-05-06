@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signupbkg"
+    android:background="@drawable/loginGreen2"
     tools:context=".SignupActivity">
 
     <LinearLayout
@@ -63,6 +63,7 @@
                 android:layout_height="70dp"
                 android:layout_marginTop="30dp"
                 android:text="Sign Up"
+                android:textColor="@color/white"
                 android:id="@+id/signup_button"
                 android:textSize="18sp"
                 app:cornerRadius = "30dp"/>

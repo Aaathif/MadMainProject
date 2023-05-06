@@ -82,7 +82,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter operator"
+            android:hint="Enter position"
             android:gravity="start|center_vertical"
             android:textColor="@color/themeGreen"/>
 

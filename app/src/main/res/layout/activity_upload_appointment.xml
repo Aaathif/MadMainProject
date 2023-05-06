@@ -72,7 +72,7 @@
                     android:drawableBottom="@color/themeGreen"
 
                     android:gravity="start|center_vertical"
-                    android:hint="Enter operator"
+                    android:hint="Enter position"
                     android:padding="16dp"
                     android:textColor="@color/themeGreen" />
 
