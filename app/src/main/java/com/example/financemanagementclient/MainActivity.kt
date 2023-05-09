@@ -32,6 +32,12 @@ class MainActivity : AppCompatActivity() {
 //            finish()
         }
 
+        binding.EPFLayout.setOnClickListener{
+            val intent = Intent(this@MainActivity, CalculatorActivity::class.java)
+            startActivity(intent)
+//            finish()
+        }
+
 
 
     }

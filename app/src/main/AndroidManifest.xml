@@ -12,6 +12,15 @@
         android:theme="@style/Theme.FinanceManagementClient"
         tools:targetApi="31">
         <activity
+            android:name=".CalculateETFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculateIncomeTaxActivity"
+            android:exported="false" />
+        <activity
             android:name=".ViewIncomeActivity"
             android:exported="false" />
         <activity

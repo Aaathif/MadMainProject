@@ -50,6 +50,7 @@
             android:id="@+id/deletePhone"
             android:drawableBottom="@color/themeGreen"
             android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:padding="16dp"

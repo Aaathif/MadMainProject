@@ -22,7 +22,7 @@ class ViewExpenseActivity : AppCompatActivity() {
             if  (searchID.isNotEmpty()){
                 readData(searchID)
             }else{
-                Toast.makeText(this,"PLease enter Expense ID",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Please enter Expense ID",Toast.LENGTH_SHORT).show()
             }
         }
     }

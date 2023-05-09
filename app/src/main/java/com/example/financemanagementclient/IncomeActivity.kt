@@ -15,7 +15,7 @@ class IncomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.incomeView.setOnClickListener{
-            val intent = Intent(this@IncomeActivity, ViewExpenseActivity::class.java)
+            val intent = Intent(this@IncomeActivity, ViewIncomeActivity::class.java)
             startActivity(intent)
         }
 

@@ -22,14 +22,14 @@ class ViewIncomeActivity : AppCompatActivity() {
             if  (searchID.isNotEmpty()){
                 readData(searchID)
             }else{
-                Toast.makeText(this,"PLease enter Expense ID", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Please enter Income ID", Toast.LENGTH_SHORT).show()
             }
         }
 
     }
 
     private fun readData(id: String){
-        databaseReference = FirebaseDatabase.getInstance().getReference("Expense Directory")
+        databaseReference = FirebaseDatabase.getInstance().getReference("Income Directory")
         databaseReference.child(id).get().addOnSuccessListener {
             if (it.exists()){
                 val type = it.child("type").value
@@ -41,7 +41,7 @@ class ViewIncomeActivity : AppCompatActivity() {
                 binding.readAmount.text = amount.toString()
                 binding.readDate.text = date.toString()
             }else{
-                Toast.makeText(this,"Expense ID does not exist", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Income ID does not exist", Toast.LENGTH_SHORT).show()
             }
         }.addOnFailureListener{
             Toast.makeText(this,"Something went wrong", Toast.LENGTH_SHORT).show()
