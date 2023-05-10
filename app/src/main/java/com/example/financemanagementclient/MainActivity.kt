@@ -38,7 +38,11 @@ class MainActivity : AppCompatActivity() {
 //            finish()
         }
 
-
+        binding.profileLayout.setOnClickListener{
+            val intent = Intent(this@MainActivity, EditProfileActivity::class.java)
+            startActivity(intent)
+//            finish()
+        }
 
     }
 }
